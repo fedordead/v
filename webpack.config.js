@@ -7,7 +7,7 @@ var config = {
     ]
   },
   output: {
-    library: 'MyLibrary',
+    library: 'V',
     libraryTarget: 'umd'
   },
   plugins: [
