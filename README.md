@@ -1,15 +1,15 @@
-## V
+# V.js
 
 V is a modular utility library for building web applications.
 
-# Install NPM dependencies
-$ npm install
+### Developing
+    $ npm install
 
-# ES5 / CommonJS build
-$ npm run build
+### ES5 / CommonJS build
+    $ npm run build
 
-# UMD build
-$ npm run build:umd
+### UMD build
+    $ npm run build:umd
 
-# Run tests
-$ npm test
+### Run tests
+    $ npm test
