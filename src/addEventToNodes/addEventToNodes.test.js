@@ -10,8 +10,7 @@ describe('addEventToNodes', () => {
 
     it('should add event to single element', () => {        
         const elements = [];
-        const evt = () => true;
-        const spy = chai.spy(evt);
+        const spy = chai.spy();
 
         // Add elements to array
         elements[0] = document.createElement('button');
@@ -28,8 +27,7 @@ describe('addEventToNodes', () => {
 
     it('should add event to multiple elements', () => {        
         const elements = [];
-        const evt = () => true;
-        const spy = chai.spy(evt);
+        const spy = chai.spy();
 
         // Add elements to array
         elements[0] = document.createElement('button');
