@@ -1,6 +1,6 @@
-## V (JS Library)
+## V
 
-$ cd megaboilerplate-app
+V is a modular utility library for building web applications.
 
 # Install NPM dependencies
 $ npm install
@@ -13,10 +13,3 @@ $ npm run build:umd
 
 # Run tests
 $ npm test
-
-### Additional Features
-- **ESLint:** true
-- **Travis CI**: true
-- **Code Coverage**: true
-- **Shields.io Badges**: true
-- **JS Library License**: mit
