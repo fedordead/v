@@ -10,7 +10,7 @@
     "clean": "rimraf lib dist coverage",
     "lint": "eslint src test examples",
     "test": "mocha --compilers js:babel-register $(find src -name '*.js')",
-    "test:cov": "babel-node ./node_modules/isparta/bin/isparta cover ./node_modules/mocha/bin/_mocha -- --recursive",
+    "test:cov": "babel-node ./node_modules/isparta/bin/isparta cover ./node_modules/mocha/bin/_mocha -- $(find src -name '*.js')",
     "test:watch": "npm test -- --watch"
   },
   "repository": {
