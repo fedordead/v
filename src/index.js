@@ -4,6 +4,7 @@ import ancestorHasClass from './ancestorHasClass';
 import checkSupport from './checkSupport';
 import defaults from './defaults';
 import each from './each';
+import getBestViewPortDirection from './getBestViewPortDirection';
 import getFields from './getFields';
 import hide from './hide';
 import id from './id';
@@ -23,6 +24,7 @@ const V = {
     checkSupport,
     defaults,
     each,
+    getBestViewPortDirection,
     getFields,
     hide,
     id,
@@ -43,6 +45,7 @@ export {
     checkSupport,
     defaults,
     each,
+    getBestViewPortDirection,
     getFields,
     hide,
     id,
