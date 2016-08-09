@@ -6,6 +6,7 @@ import each from './each';
 import getFields from './getFields';
 import hide from './hide';
 import id from './id';
+import isInView from './isInView';
 import klass from './klass';
 import nodeListToArray from './nodeListToArray';
 import q from './q';
@@ -23,6 +24,7 @@ const V = {
     getFields,
     hide,
     id,
+    isInView,
     klass,
     nodeListToArray,
     q,
@@ -41,6 +43,7 @@ export {
     getFields,
     hide,
     id,
+    isInView,
     klass,
     nodeListToArray,
     q,
