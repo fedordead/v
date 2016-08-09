@@ -1,5 +1,6 @@
 import addClass from './addClass';
 import addEventToNodes from './addEventToNodes';
+import ancestorHasClass from './ancestorHasClass';
 import checkSupport from './checkSupport';
 import defaults from './defaults';
 import each from './each';
@@ -18,6 +19,7 @@ import show from './show';
 const V = {
     addClass,
     addEventToNodes,
+    ancestorHasClass,
     checkSupport,
     defaults,
     each,
@@ -37,6 +39,7 @@ const V = {
 export {
     addClass,
     addEventToNodes,
+    ancestorHasClass,
     checkSupport,
     defaults,
     each,
